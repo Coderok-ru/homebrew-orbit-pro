@@ -1,9 +1,9 @@
 # Homebrew cask для Orbit.PRO. Публикуется в tap Coderok-ru/homebrew-orbit-pro (Scripts/publish.sh):
 #   brew install --cask coderok-ru/orbit-pro/orbit-pro
-# Значения 1.1.0/4b9df8240994f87d6a834e15c07a84a17347e3b8eb0d336e970ac04850f2e85a подставляет Scripts/release.sh.
+# Значения 1.2.0/6496f64b331dd9421e3775d54d3a70d1627ddde250aaee299faace8e6780674d подставляет Scripts/release.sh.
 cask "orbit-pro" do
-  version "1.1.0"
-  sha256 "4b9df8240994f87d6a834e15c07a84a17347e3b8eb0d336e970ac04850f2e85a"
+  version "1.2.0"
+  sha256 "6496f64b331dd9421e3775d54d3a70d1627ddde250aaee299faace8e6780674d"
 
   url "https://github.com/Coderok-ru/orbit-pro-site/releases/download/v#{version}/Orbit.PRO-#{version}.dmg"
   name "Orbit.PRO"
